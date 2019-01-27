@@ -1,12 +1,12 @@
 height = c(176, 154, 138, 196, 132, 176, 181, 169, 150, 175)
 weight = c(82, 49, 53, 112, 47, 69, 77, 71, 62, 78)
 
-library(readr)
-DvsI <- read_delim("C:/Users/degar_000/Desktop/DvsI.csv", 
-                   ";", escape_double = FALSE, trim_ws = TRUE)
-View(DvsI)
+#library(readr)
+#DvsI <- read_delim("C:/Users/degar_000/Desktop/DvsI.csv", 
+#                   ";", escape_double = FALSE, trim_ws = TRUE)
+#View(DvsI)
 
-plot(DvsI$D, DvsI$I) #simple plot
+#plot(DvsI$D, DvsI$I) #simple plot
 
 #return stats
 summary(height)
